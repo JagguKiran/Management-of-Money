@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kiran.sourcemanagement.MainActivity">
+    <item
+        android:id="@+id/byAll"
+        android:orderInCategory="100"
+        android:title="@string/print"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/byExpName"
+        android:orderInCategory="100"
+        android:title="@string/byExpense"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/byIncomeName"
+        android:orderInCategory="100"
+        android:title="@string/byIncomeName"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/byDate"
+        android:title="@string/byDate"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/lg"
+        android:title="@string/lg"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    </menu>
+
+
+

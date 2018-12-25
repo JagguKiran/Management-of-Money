@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="65sp"
+   >
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:id="@+id/spinner1"
+        android:gravity="center"
+        android:background="#607D8B"
+        android:layout_marginTop="20sp">
+
+    </Spinner>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:id="@+id/spinner2"
+        android:gravity="center"
+        android:background="#607D8B"
+        android:layout_marginTop="40sp">
+
+    </Spinner>
+
+
+</LinearLayout>

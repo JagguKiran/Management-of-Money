@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Currency Name"
+        android:id="@+id/ec1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingTop="20sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ec2"
+        android:textSize="20sp"
+        android:hint="Enter Currency Symbol"
+        android:textStyle="bold"
+        android:paddingTop="40sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ec3"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:hint="Equivalent Value In Rupees"
+        android:textStyle="bold"
+        android:paddingTop="40sp"/>
+
+</LinearLayout>

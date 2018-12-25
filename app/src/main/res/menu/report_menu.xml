@@ -1,0 +1,21 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kiran.sourcemanagement.MainActivity">
+    <item
+        android:id="@+id/pieChart"
+        android:orderInCategory="100"
+        android:title="@string/PC"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/barChart"
+        android:orderInCategory="100"
+        android:title="@string/BC"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/lg"
+        android:orderInCategory="100"
+        android:title="@string/lg"
+        app:showAsAction="never" />
+</menu>

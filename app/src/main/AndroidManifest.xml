@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kiran.sourcemanagement">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shravan"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterAct"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SourceMainAct"
+            android:label="@string/sl"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IncomeAct"
+            android:label="@string/income"
+            android:parentActivityName=".SourceMainAct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExpenseAct"
+            android:label="@string/exp"
+            android:parentActivityName=".SourceMainAct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CardAct"
+            android:label="@string/card"
+            android:parentActivityName=".SourceMainAct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingAct"
+            android:label="@string/set"
+            android:parentActivityName=".SourceMainAct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReportAct"
+            android:label="@string/rep"
+            android:parentActivityName=".SourceMainAct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BalanceAct"
+            android:label="@string/bal"
+            android:parentActivityName=".SourceMainAct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IncomeDisplay"
+            android:label="@string/incomeDisplay"
+            android:parentActivityName=".IncomeAct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExpenseDisplay"
+            android:label="@string/expDisplay"
+            android:parentActivityName=".ExpenseAct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CardDisplay"
+            android:label="@string/cD"
+            android:parentActivityName=".CardAct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IncomeDetailsAct"
+            android:label="@string/title_activity_income_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExpenseDetailsAct"
+            android:label="@string/title_activity_expense_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutAppAct"
+            android:label="@string/help"
+            android:parentActivityName=".SettingAct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FeedbackAct"
+            android:label="@string/title_feedback"
+            android:parentActivityName=".SettingAct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PieAct"
+            android:label="@string/pieChart"
+            android:parentActivityName=".ReportAct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BarAct"
+            android:label="@string/barChart"
+            android:parentActivityName=".ReportAct"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BarChartNavigationAct"
+            android:label="@string/title_activity_bar_chart_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BalanceDetailsAct"
+            android:label="@string/title_activity_balance_details"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

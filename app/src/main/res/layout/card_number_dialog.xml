@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:text=" 1.Card Number Should Be Of Size 10."
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:text=" 2.First 3 Lettes Should Be Alphabets [A-Z][a-z]."
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text3"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:text=" 3.Followed By 7 Digits [0-9]."
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text4"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:text=" 4.Example : ABC1234567."/>
+
+</LinearLayout>

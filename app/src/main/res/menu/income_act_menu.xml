@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kiran.sourcemanagement.MainActivity">
+    <item
+        android:id="@+id/show"
+        android:orderInCategory="100"
+        android:title="@string/showAll"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/lg"
+        android:orderInCategory="100"
+        android:title="@string/lg"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/add"
+        android:title="Add"
+        android:icon="@android:drawable/btn_plus"
+        app:showAsAction="always"/>
+</menu>

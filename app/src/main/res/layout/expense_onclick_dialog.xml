@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="220sp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/etamt"
+            android:paddingTop="20sp"
+            android:hint="Enter Amount"/>
+        <ImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:id="@+id/imge"
+            android:paddingTop="20sp"
+            android:background="@drawable/calculator"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="date"
+        android:text="DATE"
+        android:layout_marginTop="20sp"
+        android:textAlignment="center"
+        android:id="@+id/bt1"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Income"
+        android:id="@+id/spinner"
+        android:gravity="center"
+        android:layout_marginTop="20sp"/>
+
+
+
+
+
+</LinearLayout>
+

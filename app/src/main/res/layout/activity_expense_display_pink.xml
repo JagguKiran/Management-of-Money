@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.kiran.sourcemanagement.ExpenseDisplay">
+
+
+<include layout="@layout/toolbar_pink"/>
+    <include layout="@layout/content_expense_display" />
+
+
+
+</android.support.design.widget.CoordinatorLayout>
